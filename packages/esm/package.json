@@ -1,0 +1,5 @@
+{
+    "name": "esm",
+    "type": "module",
+    "main": "index.js"
+}

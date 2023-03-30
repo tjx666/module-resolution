@@ -1,0 +1,9 @@
+{
+    "name": "esm-app",
+    "type": "commonjs",
+    "main": "index.js",
+    "dependencies": {
+        "commonjs": "workspace:*",
+        "esm": "workspace:*"
+    }
+}
