@@ -3,6 +3,7 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
+        "dev": "vite -d",
         "build:rollup": "rollup -c",
         "build:vite": "vite build"
     },
@@ -10,11 +11,5 @@
         "commonjs": "workspace:*",
         "esm": "workspace:*",
         "lodash": "^4.17.21"
-    },
-    "devDependencies": {
-        "rollup": "^3.20.2",
-        "@rollup/plugin-node-resolve": "^15.0.1",
-        "@rollup/plugin-commonjs": "^24.0.1",
-        "vite": "^4.2.1"
     }
 }

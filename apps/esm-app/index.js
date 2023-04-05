@@ -1,5 +1,5 @@
-import { add } from 'lodash';
-import { fromCommonjs } from 'commonjs';
+import { multiply } from 'esm/multiply.js';
+import { multiply as aaa } from 'esm/multiply';
 
-console.log(add(1, 2));
-fromCommonjs();
+console.log(multiply(1, 2));
+console.log(aaa(1, 8));

@@ -1,9 +1,15 @@
 {
-    "name": "esm-app",
+    "name": "commonjs-app",
     "type": "commonjs",
     "main": "index.js",
     "dependencies": {
         "commonjs": "workspace:*",
-        "esm": "workspace:*"
+        "esm": "workspace:*",
+        "lodash": "^4.17.21"
+    },
+    "scripts": {
+        "dev": "vite -d",
+        "build:rollup": "rollup -c",
+        "build:vite": "vite build"
     }
 }

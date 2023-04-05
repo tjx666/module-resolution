@@ -1,9 +1,9 @@
-import { multiple } from './multiple';
+import { multiply } from './multiply';
 
 function fromEsm() {
     console.log('form esm');
 }
 
-// console.log(multiple(2, 3));
+// console.log(multiply(2, 3));
 
-export { multiple, fromEsm };
+export { multiply, fromEsm };

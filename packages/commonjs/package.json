@@ -1,4 +1,6 @@
 {
     "name": "commonjs",
-    "main": "./index.js"
+    "exports": {
+        "./a/*/c": "./dist/hello.js"
+    }
 }

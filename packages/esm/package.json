@@ -1,5 +1,8 @@
 {
     "name": "esm",
     "type": "module",
-    "main": "index.js"
+    "exports": {
+        "./*.js": "./*.js",
+        "./*": "./*.js"
+    }
 }

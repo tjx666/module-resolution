@@ -1,0 +1,8 @@
+{
+    "name": "math",
+    "exports": {
+        "./*": {
+            "types": "./src/*.ts"
+        }
+    }
+}

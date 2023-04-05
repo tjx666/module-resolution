@@ -1,0 +1,8 @@
+{
+    "name": "commonjs-ts-app",
+    "type": "commonjs",
+    "devDependencies": {
+        "@types/lodash": "^4.14.192",
+        "math": "workspace:*"
+    }
+}
