@@ -1,5 +1,4 @@
-import { multiply } from 'esm/multiply.js';
-import { multiply as aaa } from 'esm/multiply';
+import pkg from './node_modules/commonjs/package.json' assert { type: 'json' };
+import { resolve } from 'resolve.exports';
 
-console.log(multiply(1, 2));
-console.log(aaa(1, 8));
+console.log(resolve(pkg, 'commonjs/a/b/c'));

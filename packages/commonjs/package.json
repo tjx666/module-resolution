@@ -1,6 +1,11 @@
 {
     "name": "commonjs",
     "exports": {
-        "./a/*/c": "./dist/hello.js"
+        ".": {
+            "require": null,
+            "xxx": "./dist/hello.js",
+            "default": null
+        },
+        "./hello": null
     }
 }

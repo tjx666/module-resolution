@@ -1,0 +1,6 @@
+{
+    "name": "resolve-exports",
+    "dependencies": {
+        "commonjs": "workspace:*"
+    }
+}

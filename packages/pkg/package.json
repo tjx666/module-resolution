@@ -1,0 +1,29 @@
+{
+    "name": "pkg",
+    "type": "module",
+    "scripts": {},
+    "exports": {
+        ".": {
+            "types": "./src/index.ts",
+            "development": "./src/index.ts",
+            "default": "./dist/es/index.mjs"
+        },
+        "./*": {
+            "types": "./src/*.ts",
+            "development": "./src/*",
+            "default": "./dist/es/*"
+        }
+    },
+    "publishConfig": {
+        "exports": {
+            ".": {
+                "types": "./dist/types/index.d.ts",
+                "import": "./dist/es/index.mjs"
+            },
+            "./*": {
+                "types": "./dist/types/*.d.ts",
+                "import": "./dist/es/*.mjs"
+            }
+        }
+    }
+}
